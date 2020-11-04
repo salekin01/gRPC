@@ -1,13 +1,12 @@
-﻿//using Coordinator.Interfaces;
-//using Coordinator.Models;
-using CoreCoordinator.Interfaces;
-using CoreCoordinator.Models;
+﻿using Coordinator.Interfaces;
+using Coordinator.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoreServer.Services
+namespace Server.Services
 {
     public class MyCalculator : ICalculator
     {
